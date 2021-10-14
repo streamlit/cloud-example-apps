@@ -195,7 +195,7 @@ category("📊 Data Visualization")
 col1, col2, col3 = st.columns(3)
 with col1:
     app(
-        "NYC Uber Pickups",
+        "Interactive Data Visualization",
         "A pure Python app that interactively visualizes Uber pickups in New York City.",
         "images/Uber.png",
         "https://share.streamlit.io/streamlit/demo-uber-nyc-pickups",
@@ -203,7 +203,7 @@ with col1:
     )
 with col2:
     app(
-        "Crypto dashboard",
+        "Crypto Dashboard",
         "A simple cryptocurrency price app pulling price data from the Binance API.",
         "images/Uber.png",
         "https://share.streamlit.io/streamlit/example-apps/crypto-dashboard",
@@ -241,7 +241,7 @@ category("📦 Product")
 col1, col2, col3 = st.columns(3)
 with col1:
     app(
-        "Public Roadmap",
+        "Informational Dashboard",
         "A public, filtered version of our roadmap with some selected projects.",
         "images/Roadmap.png",
         "https://share.streamlit.io/streamlit/roadmap",
