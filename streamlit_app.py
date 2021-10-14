@@ -206,7 +206,7 @@ with col2:
         "Crypto Dashboard",
         "Pulls price data from the Binance API.",
         "images/Uber.png",
-        "https://share.streamlit.io/streamlit/example-apps/crypto-dashboard",
+        "https://share.streamlit.io/streamlit/example-app-crypto-dashboard/main/app.py",
         "crypto-dashboard",
     )
 with col3:
@@ -249,7 +249,7 @@ category("📦 Product")
 col1, col2, col3 = st.columns(3)
 with col1:
     app(
-        "Informational Dashboard",
+        "Sharing Information",
         "A public, filtered version of our roadmap with some selected projects.",
         "images/Roadmap.png",
         "https://share.streamlit.io/streamlit/roadmap",
