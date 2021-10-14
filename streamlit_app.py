@@ -209,7 +209,7 @@ with col2:
         "https://share.streamlit.io/streamlit/example-apps/crypto-dashboard",
         "crypto-dashboard",
     )
- with col3:
+with col3:
     app(
         "Data Wrangler",
         "Filters and visualizes data from CSV files.",
