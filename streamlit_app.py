@@ -196,7 +196,7 @@ col1, col2, col3 = st.columns(3)
 with col1:
     app(
         "Interactive Data Visualization",
-        "A pure Python app that interactively visualizes Uber pickups in New York City.",
+        "Interactively visualizes Uber pickups in New York City.",
         "images/Uber.png",
         "https://share.streamlit.io/streamlit/demo-uber-nyc-pickups",
         "demo-uber-nyc-pickups",
@@ -204,10 +204,18 @@ with col1:
 with col2:
     app(
         "Crypto Dashboard",
-        "A simple cryptocurrency price app pulling price data from the Binance API.",
+        "Pulls price data from the Binance API.",
         "images/Uber.png",
         "https://share.streamlit.io/streamlit/example-apps/crypto-dashboard",
         "crypto-dashboard",
+    )
+ with col3:
+    app(
+        "Data Wrangler",
+        "Filters and visualizes data from CSV files.",
+        "images/Uber.png",
+        "https://share.streamlit.io/streamlit/example-app-csv-wrangler/main/app.py",
+        "example-app-csv-wrangler",
     )
 
 category("🧠 Machine Learning")
