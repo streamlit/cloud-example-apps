@@ -195,7 +195,7 @@ category("📊 Data Visualization")
 col1, col2, col3 = st.columns(3)
 with col1:
     app(
-        "Interactive Dashboard",
+        "Interactive Data",
         "Interactively visualizes Uber pickups in New York City.",
         "images/Uber.png",
         "https://share.streamlit.io/streamlit/demo-uber-nyc-pickups",
