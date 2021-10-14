@@ -239,7 +239,7 @@ with col2:
 with col3:
     app(
         "Image Browser",
-        "Visualizes the Udacity self-driving-car dataset and YOLO object detection.",
+        "Displays visuals for the Udacity self-driving-car dataset with realtime object detection using YOLO.",
         "images/DeepDream.png",
         "https://share.streamlit.io/streamlit/demo-self-driving/master",
         "demo-self-driving",
