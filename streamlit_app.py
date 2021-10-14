@@ -192,7 +192,7 @@ def app(name, description, image, link, repo_name):
     st.write("")
 
 category("📊 Data Visualization")
-col1, col2, col3 = st.beta_columns(3)
+col1, col2, col3 = st.columns(3)
 with col1:
     app(
         "NYC Uber Pickups",
@@ -211,7 +211,7 @@ with col2:
     )
 
 category("🧠 Machine Learning")
-col1, col2, col3 = st.beta_columns(3)
+col1, col2, col3 = st.columns(3)
 with col1:
     app(
         "Face-GAN",
@@ -238,7 +238,7 @@ with col3:
     )
 
 category("📦 Product")
-col1, col2, col3 = st.beta_columns(3)
+col1, col2, col3 = st.columns(3)
 with col1:
     app(
         "Public Roadmap",
