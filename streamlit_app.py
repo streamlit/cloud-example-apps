@@ -222,7 +222,7 @@ category("🧠 Machine Learning")
 col1, col2, col3 = st.columns(3)
 with col1:
     app(
-        "Image Generation",
+        "Generating Images",
         "Calls on TensorFlow to generate photorealistic faces, highlighting Streamlit's hash_func feature.",
         "images/FaceGAN.png",
         "https://share.streamlit.io/streamlit/demo-face-gan/",
@@ -230,7 +230,7 @@ with col1:
     )
 with col2:
     app(
-        "Image Modification",
+        "Modifying Images",
         "Demonstrates the Deep Dream technique, which was adapted from the TensorFlow Deep Dream tutorial.",
         "images/DeepDream.png",
         "https://share.streamlit.io/streamlit/demo-deepdream/master",
