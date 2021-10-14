@@ -195,7 +195,7 @@ category("📊 Data Visualization")
 col1, col2, col3 = st.columns(3)
 with col1:
     app(
-        "Interactive Data Visualization",
+        "Interactive Dashboard",
         "Interactively visualizes Uber pickups in New York City.",
         "images/Uber.png",
         "https://share.streamlit.io/streamlit/demo-uber-nyc-pickups",
@@ -222,16 +222,16 @@ category("🧠 Machine Learning")
 col1, col2, col3 = st.columns(3)
 with col1:
     app(
-        "Face-GAN",
-        "An app that calls on TensorFlow to generate photorealistic faces, highlighting Streamlit's hash_func feature.",
+        "Image Generation",
+        "Calls on TensorFlow to generate photorealistic faces, highlighting Streamlit's hash_func feature.",
         "images/FaceGAN.png",
         "https://share.streamlit.io/streamlit/demo-face-gan/",
         "demo-face-gan",
     )
 with col2:
     app(
-        "DeepDream",
-        "A demo demonstrating the Deep Dream technique, which was adapted from the TensorFlow Deep Dream tutorial.",
+        "Image Modification",
+        "Demonstrates the Deep Dream technique, which was adapted from the TensorFlow Deep Dream tutorial.",
         "images/DeepDream.png",
         "https://share.streamlit.io/streamlit/demo-deepdream/master",
         "demo-deepdream",
@@ -239,7 +239,7 @@ with col2:
 with col3:
     app(
         "Image Browser",
-        "This project demonstrates the Udacity self-driving-car dataset and YOLO object detection into an interactive Streamlit app.",
+        "Visualizes the Udacity self-driving-car dataset and YOLO object detection.",
         "images/DeepDream.png",
         "https://share.streamlit.io/streamlit/demo-self-driving/master",
         "demo-self-driving",
