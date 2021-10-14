@@ -196,7 +196,7 @@ col1, col2, col3 = st.columns(3)
 with col1:
     app(
         "Interactive Data",
-        "Interactively visualizes Uber pickups in New York City.",
+        "Interactively visualizes NYC Uber pickups.",
         "images/Uber.png",
         "https://share.streamlit.io/streamlit/demo-uber-nyc-pickups",
         "demo-uber-nyc-pickups",
