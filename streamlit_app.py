@@ -249,8 +249,8 @@ category("📦 Product")
 col1, col2, col3 = st.columns(3)
 with col1:
     app(
-        "Sharing Information",
-        "A public, filtered version of our roadmap with some selected projects.",
+        "Info Sharing",
+        "Displays selected projects from Streamlit's roadmap.",
         "images/Roadmap.png",
         "https://share.streamlit.io/streamlit/roadmap",
         "roadmap",
