@@ -216,17 +216,17 @@ with col3:
         "Look at live data and compare trends. This app uses the Binance API to explore crypto data.",
         "images/Uber.png",
         "https://share.streamlit.io/streamlit/example-app-crypto-dashboard/main/app.py",
-        "crypto-dashboard",
+        "example-app-crypto-dashboard",
     )
     
 col4, col5, col6 = st.columns(3)
 with col4:
     app(
         "A/B Testing",
-        "Display data or information with others. This example shows Streamlt's roadmap pulled from the Notion API.",
+        ".....",
         "images/Roadmap.png",
-        "https://share.streamlit.io/streamlit/roadmap",
-        "roadmap",
+        "https://share.streamlit.io/streamlit/example-app-ab-testing",
+        "example-app-ab-testing",
     )
 
 category("🧠 Machine Learning")
