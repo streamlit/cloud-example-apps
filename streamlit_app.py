@@ -205,7 +205,7 @@ with col2:
     app(
         "Data Wrangler",
         "Got a CSV that you need to make sense of? Quickly put a CSV in a dataframe and explore the data..",
-        "images/Uber.png",
+        "images/CSVWrangler.png",
         "https://share.streamlit.io/streamlit/example-app-csv-wrangler/main/app.py",
         "example-app-csv-wrangler",
 
@@ -260,7 +260,7 @@ with col2:
     app(
         "A/B Testing",
         "Description",
-        "images/Test.png",
+        "images/ABTesting.png",
         "https://share.streamlit.io/streamlit/example-app-ab-testing",
         "example-app-ab-testing",
     )
