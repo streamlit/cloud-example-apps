@@ -222,7 +222,7 @@ with col4:
     app(
         "A/B Testing",
         "Description",
-        "images/Roadmap.png",
+        "images/Test.png",
         "https://share.streamlit.io/streamlit/example-app-ab-testing",
         "example-app-ab-testing",
     )
