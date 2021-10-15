@@ -192,7 +192,7 @@ def app(name, description, image, link, repo_name):
     st.write("")
 
 category("📊 Data Visualization")
-col1, col2, col3 = st.columns(3)
+col1, col2, col3, col4 = st.columns(4)
 with col1:
     app(
         "Interactive Data",
@@ -218,12 +218,9 @@ with col3:
         "https://share.streamlit.io/streamlit/example-app-crypto-dashboard/main/app.py",
         "example-app-crypto-dashboard",
     )
-    
-col4, col5, col6 = st.columns(3)
 with col4:
     app(
         "A/B Testing",
-        "images/Uber.png",
         "images/Roadmap.png",
         "https://share.streamlit.io/streamlit/example-app-ab-testing",
         "example-app-ab-testing",
