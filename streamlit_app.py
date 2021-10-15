@@ -196,50 +196,61 @@ col1, col2, col3 = st.columns(3)
 with col1:
     app(
         "Interactive Data",
-        "Interactively visualizes NYC Uber pickups.",
+        "Make data apps to interactively explore data. In this case, check out NYC Uber pickups.",
         "images/Uber.png",
         "https://share.streamlit.io/streamlit/demo-uber-nyc-pickups",
         "demo-uber-nyc-pickups",
     )
 with col2:
     app(
-        "Crypto Dashboard",
-        "Pulls price data from the Binance API.",
+        "Data Wrangler",
+        "Got a CSV that you need to make sense of? Quickly put a CSV in a dataframe and explore the data..",
+        "images/Uber.png",
+        "https://share.streamlit.io/streamlit/example-app-csv-wrangler/main/app.py",
+        "example-app-csv-wrangler",
+
+    )
+with col3:
+    app(
+        "Finance Explorer",
+        "Look at live data and compare trends. This app uses the Binance API to explore crypto data.",
         "images/Uber.png",
         "https://share.streamlit.io/streamlit/example-app-crypto-dashboard/main/app.py",
         "crypto-dashboard",
     )
-with col3:
+    
+col4, col5, col6 = st.columns(3)
+with col4:
     app(
-        "Data Wrangler",
-        "Filters and visualizes data from CSV files.",
-        "images/Uber.png",
-        "https://share.streamlit.io/streamlit/example-app-csv-wrangler/main/app.py",
-        "example-app-csv-wrangler",
+        "A/B Testing",
+        "Display data or information with others. This example shows Streamlt's roadmap pulled from the Notion API.",
+        "images/Roadmap.png",
+        "https://share.streamlit.io/streamlit/roadmap",
+        "roadmap",
     )
 
 category("🧠 Machine Learning")
 col1, col2, col3 = st.columns(3)
 with col1:
     app(
-        "Generating Images",
-        "Calls on TensorFlow to generate photorealistic faces, highlighting Streamlit's hash_func feature.",
+        "Model Debugger",
+        "Visualize your model to debug the output. This app uses Tensorflow and GAN to generate photorealistic images.",
         "images/FaceGAN.png",
         "https://share.streamlit.io/streamlit/demo-face-gan/",
         "demo-face-gan",
     )
 with col2:
     app(
-        "Modifying Images",
-        "Demonstrates the Deep Dream technique, which was adapted from the TensorFlow Deep Dream tutorial.",
+        "ML Tools",
+        "Create machine learning tools for others to use your models. This app generates images using the Deep Dream technique.",
         "images/DeepDream.png",
         "https://share.streamlit.io/streamlit/demo-deepdream/master",
         "demo-deepdream",
     )
 with col3:
     app(
-        "Image Browser",
-        "Displays visuals for the Udacity self-driving-car dataset with realtime object detection using YOLO.",
+        "Data Browser",
+        "Explore large datasets for input into ML models. This app displays self-driving car data and does real-time detection using YOLO.",
         "images/DeepDream.png",
         "https://share.streamlit.io/streamlit/demo-self-driving/master",
         "demo-self-driving",
@@ -250,7 +261,7 @@ col1, col2, col3 = st.columns(3)
 with col1:
     app(
         "Info Sharing",
-        "Displays selected projects from Streamlit's roadmap.",
+        "Display data or information with others. This example shows Streamlt's roadmap pulled from the Notion API.",
         "images/Roadmap.png",
         "https://share.streamlit.io/streamlit/roadmap",
         "roadmap",
