@@ -241,7 +241,7 @@ with col3:
     app(
         "Data Browser",
         "Explore large datasets for input into ML models. This app displays self-driving car data and does real-time detection using YOLO.",
-        "images/DeepDream.png",
+        "images/SelfDriving.png",
         "https://share.streamlit.io/streamlit/demo-self-driving/master",
         "demo-self-driving",
     )
