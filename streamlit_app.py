@@ -221,6 +221,7 @@ with col3:
 with col4:
     app(
         "A/B Testing",
+        "Description",
         "images/Roadmap.png",
         "https://share.streamlit.io/streamlit/example-app-ab-testing",
         "example-app-ab-testing",
