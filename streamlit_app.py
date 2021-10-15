@@ -223,7 +223,7 @@ col4, col5, col6 = st.columns(3)
 with col4:
     app(
         "A/B Testing",
-        ".....",
+        "images/Uber.png",
         "images/Roadmap.png",
         "https://share.streamlit.io/streamlit/example-app-ab-testing",
         "example-app-ab-testing",
