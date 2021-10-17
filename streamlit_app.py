@@ -251,7 +251,7 @@ col1, col2, col3 = st.columns(3)
 with col1:
     app(
         "Info Sharing",
-        "Display data or information with others. This example shows Streamlt's roadmap pulled from the Notion API.",
+        "Share data or information with others. This app pulls Streamlit's roadmap via the Notion API.",
         "images/Roadmap.png",
         "https://share.streamlit.io/streamlit/roadmap",
         "roadmap",
