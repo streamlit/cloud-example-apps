@@ -204,7 +204,7 @@ with col1:
 with col2:
     app(
         "Data Wrangler",
-        "Use this app to make sense of a CSV by converting it to a dataframe and exploring the data.",
+        "Explore data by converting a CSV to a dataframe.",
         "images/CSVWrangler.png",
         "https://share.streamlit.io/streamlit/example-app-csv-wrangler/main/app.py",
         "example-app-csv-wrangler",
