@@ -259,7 +259,7 @@ with col1:
 with col2:
     app(
         "A/B Testing",
-        "Description",
+        "Upload your experiment results to explore the statistical significance of an A/B test.",
         "images/ABTesting.png",
         "https://share.streamlit.io/streamlit/example-app-ab-testing",
         "example-app-ab-testing",
