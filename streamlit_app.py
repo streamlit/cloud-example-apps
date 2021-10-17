@@ -214,7 +214,7 @@ with col3:
     app(
         "Finance Explorer",
         "Look at live data and compare trends. This app uses the Binance API to explore crypto data.",
-        "images/Uber.png",
+        "images/FinanceExplorer.png",
         "https://share.streamlit.io/streamlit/example-app-crypto-dashboard/main/app.py",
         "example-app-crypto-dashboard",
     )
