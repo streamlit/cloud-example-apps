@@ -266,4 +266,5 @@ with col2:
     )
     
 st.header("Want more example apps?")
-st.write("Check out our [app gallery](https://streamlit.io/gallery)")
+clicked = link_button('Check out our app gallery!', "https://streamlit.io/gallery")
+# st.write("Check out our [app gallery](https://streamlit.io/gallery)")
