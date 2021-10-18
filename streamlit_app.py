@@ -264,3 +264,6 @@ with col2:
         "https://share.streamlit.io/streamlit/example-app-ab-testing",
         "example-app-ab-testing",
     )
+    
+st.header("Want more example apps?")
+st.write("Check out our [app gallery](https://streamlit.io/gallery)")
