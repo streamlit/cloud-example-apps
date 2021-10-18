@@ -265,10 +265,10 @@ with col2:
         "example-app-ab-testing",
     )
     
-title = "🤩 Want more example apps?"
-link = "https://streamlit.io/gallery" 
-st.header(f"[{title}]({link})")
+# title = "🤩 Want more example apps?"
+# link = "https://streamlit.io/gallery" 
+# st.header(f"[{title}]({link})")
 #st.caption(f"[{description}]({link})")
-#st.header("🤩 Want more example apps?")
+st.header("🤩 Want more example apps?")
 clicked = link_button('Check out our app gallery!', "https://streamlit.io/gallery")
 # st.write("Check out our [app gallery](https://streamlit.io/gallery)")
