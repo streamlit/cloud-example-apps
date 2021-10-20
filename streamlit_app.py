@@ -5,7 +5,7 @@ import webbrowser
 from link_button import link_button
 
 st.set_page_config(
-    page_title="Streamlit Cloud Demo Apps",
+    page_title="Streamlit Cloud Example Apps",
     page_icon="https://streamlit.io/favicon.svg",
 )
 
