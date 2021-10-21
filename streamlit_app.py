@@ -114,7 +114,7 @@ def navbar():
     )
 
 st.image("https://streamlit.io/images/brand/streamlit-mark-color.png", width=100)
-st.title("Streamlit Cloud Demo Apps")
+st.title("Streamlit Cloud Example Apps")
 st.write(
     "🚀 To deploy an app with your own [Streamlit Cloud](https://share.streamlit.io/) account,"
     " just click 'Fork & Deploy.'"
