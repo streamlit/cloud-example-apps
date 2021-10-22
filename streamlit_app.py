@@ -117,10 +117,10 @@ st.image("https://streamlit.io/images/brand/streamlit-mark-color.png", width=100
 st.title("Streamlit Cloud Example Apps")
 st.write(
     "🚀 To deploy an app with your own [Streamlit Cloud](https://share.streamlit.io/) account,"
-    " just click 'Fork & Deploy.'"
+    " just click 'Fork App'"
 )
 st.write("🤔 Stuck? Check out our [docs on deploying apps](https://docs.streamlit.io/en/stable/deploy_streamlit_app.html) or reach out to support@streamlit.io!")
-github_options = st.radio("Would you like to clone or fork the repository?", ('Fork', 'Clone'))
+# github_options = st.radio("Would you like to clone or fork the repository?", ('Fork', 'Clone'))
 
 st.markdown(
     """
@@ -189,7 +189,7 @@ def app(name, description, image, link, repo_name):
     st.code(clone_code, language="python")
     fork_link = "https://github.com/streamlit/{0}/fork".format(repo_name)
 #     st.write("[🍴Fork App](%s)" % fork_link)
-    clicked = link_button('Fork & Deploy', fork_link)
+    clicked = link_button('Fork App', fork_link)
     if clicked:    
         st.balloons()
     st.write("")
