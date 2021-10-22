@@ -188,7 +188,7 @@ def app(name, description, image, link, repo_name):
     clone_code = "git clone {} ".format(repo_name)
     st.code(clone_code, language="python")
     fork_link = "https://github.com/streamlit/{0}/fork".format(repo_name)
-    st.write("[🍴Fork App](%s)" % fork_link)
+#     st.write("[🍴Fork App](%s)" % fork_link)
     clicked = link_button('Fork & Deploy', fork_link)
     if clicked:    
         st.balloons()
