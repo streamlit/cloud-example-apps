@@ -120,6 +120,7 @@ st.write(
     " just click 'Fork App'"
 )
 st.write("🤔 Stuck? Check out our [docs on deploying apps](https://docs.streamlit.io/en/stable/deploy_streamlit_app.html) or reach out to support@streamlit.io!")
+st.write("To learn more about forking and cloning GitHub repositories, check out [this guide.](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)")
 # github_options = st.radio("Would you like to clone or fork the repository?", ('Fork', 'Clone'))
 
 st.markdown(
