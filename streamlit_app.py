@@ -265,7 +265,7 @@ with col2:
         "A/B Testing",
         "Upload your experiment results to explore the statistical significance of an A/B test.",
         "images/ABTesting.png",
-        "https://share.streamlit.io/streamlit/example-app-ab-testing",
+        "https://share.streamlit.io/streamlit/example-app-ab-testing/main",
         "example-app-ab-testing",
     )
     
