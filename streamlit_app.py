@@ -2,7 +2,6 @@ import itertools
 import streamlit as st
 import ui
 import webbrowser
-from link_button import link_button
 
 st.set_page_config(
     page_title="Streamlit Cloud Example Apps",
@@ -188,11 +187,15 @@ def app(name, description, image, link, repo_name):
     st.caption(f"[{description}]({link})")
     clone_code = "git clone {} ".format(repo_name)
     st.code(clone_code, language="python")
-    fork_link = "https://github.com/streamlit/{0}/fork".format(repo_name)
+   # fork_link = "https://github.com/streamlit/{0}/fork".format(repo_name)
 #     st.write("[🍴Fork App](%s)" % fork_link)
-    clicked = link_button('Fork App', fork_link)
-    if clicked:    
-        st.balloons()
+    st.write("[Fork App](%s)" % fork_app)
+    #st.markdown(
+      #  """<a href={fork_link}>Fork App</a>""", unsafe_allow_html=True,
+    #)
+    #clicked = link_button('Fork App', fork_link)
+    #if clicked:    
+    #    st.balloons()
     st.write("")
 
 category("📊 Data Visualization")
