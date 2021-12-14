@@ -275,7 +275,7 @@ category("🦄 Other")
 col1, col2, col3 = st.columns(3)
 with col1:
     app(
-        "Database Connection",
+        "Write to a Database",
         "Easily collect data from users and write to a database.",
         "images/Roadmap.png",
         "https://share.streamlit.io/streamlit/example-app-bug-report/main",
@@ -284,7 +284,7 @@ with col1:
 with col2:
     app(
         "File Generation",
-        "Quickly generate a PDF file based on user input.",
+        "Quickly generate a PDF file using data collected from user input.",
         "images/ABTesting.png",
         "https://share.streamlit.io/streamlit/example-app-pdf-report/main",
         "example-app-pdf-report",
