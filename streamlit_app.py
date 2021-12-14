@@ -293,7 +293,7 @@ with col3:
     app(
         "Collaboration",
         "Allow viewers of your app to collaborate via a commenting feature.",
-        "images/SelfDriving.png",
+        "images/Comments.png",
         "https://share.streamlit.io/streamlit/example-app-commenting/main",
         "example-app-commenting",
     )
