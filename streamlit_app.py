@@ -271,7 +271,7 @@ with col1:
     app(
         "Database Example",
         "Easily collect data from users and write to a database.",
-        "images/Roadmap.png",
+        "images/BugReport.png",
         "https://share.streamlit.io/streamlit/example-app-bug-report/main",
         "example-app-bug-report",
     )
