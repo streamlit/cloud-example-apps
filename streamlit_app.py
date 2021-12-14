@@ -189,7 +189,7 @@ def app(name, description, image, link, repo_name):
     st.code(clone_code, language="python")
     repo_link = "https://github.com/streamlit/{0}/".format(repo_name)
     #fork_link = "https://github.com/streamlit/{0}/fork".format(repo_name)
-    st.write("[View App Repo](%s)" % repo_link)
+    st.write("[👀 View App Repo](%s)" % repo_link)
     #st.markdown(
       #  """<a href={fork_link}>Fork App</a>""", unsafe_allow_html=True,
     #)
@@ -275,7 +275,7 @@ category("🦄 Other")
 col1, col2, col3 = st.columns(3)
 with col1:
     app(
-        "Writing to Databases",
+        "Database Connection",
         "Easily collect data from users and write to a database.",
         "images/Roadmap.png",
         "https://share.streamlit.io/streamlit/example-app-bug-report/main",
