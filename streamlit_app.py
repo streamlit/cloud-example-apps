@@ -189,7 +189,7 @@ def app(name, description, image, link, repo_name):
     st.code(clone_code, language="python")
     fork_link = "https://github.com/streamlit/{0}/fork".format(repo_name)
 #     st.write("[🍴Fork App](%s)" % fork_link)
-    st.write("[Fork App](%s)" % fork_app)
+    st.write("[Fork App](%s)" % fork_link)
     #st.markdown(
       #  """<a href={fork_link}>Fork App</a>""", unsafe_allow_html=True,
     #)
