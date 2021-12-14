@@ -269,6 +269,33 @@ with col2:
         "example-app-ab-testing",
     )
     
+category("🦄 Other")
+col1, col2, col3 = st.columns(3)
+with col1:
+    app(
+        "Writing to Databases",
+        "Easily collect data from users and write to a database.",
+        "images/Roadmap.png",
+        "https://share.streamlit.io/streamlit/example-app-bug-report/main",
+        "example-app-bug-report",
+    )
+with col2:
+    app(
+        "File Generation",
+        "Quickly generate a PDF file based on user input.",
+        "images/ABTesting.png",
+        "https://share.streamlit.io/streamlit/example-app-pdf-report/main",
+        "example-app-pdf-report",
+    )
+with col3:
+    app(
+        "Collaboration",
+        "Allow viewers of your app to collaborate via a commenting feature.",
+        "images/SelfDriving.png",
+        "https://share.streamlit.io/streamlit/example-app-commenting/main",
+        "example-app-commenting",
+    )
+    
 # title = "🤩 Want more example apps?"
 # link = "https://streamlit.io/gallery" 
 # st.header(f"[{title}]({link})")
