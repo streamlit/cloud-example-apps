@@ -269,7 +269,7 @@ category("🦄 Other")
 col1, col2, col3 = st.columns(3)
 with col1:
     app(
-        "Database Example",
+        "Databases",
         "Easily collect data from users and write to a database.",
         "images/BugReport.png",
         "https://share.streamlit.io/streamlit/example-app-bug-report/main",
