@@ -2,7 +2,6 @@ import itertools
 import streamlit as st
 import ui
 import webbrowser
-from link_button import link_button
 
 st.set_page_config(
     page_title="Streamlit Cloud Example Apps",
@@ -117,9 +116,9 @@ st.image("https://streamlit.io/images/brand/streamlit-mark-color.png", width=100
 st.title("Streamlit Cloud Example Apps")
 st.write(
     "🚀 To deploy an app with your own [Streamlit Cloud](https://share.streamlit.io/) account,"
-    " just click 'Fork App'"
+    " click 'View App Repo'"
 )
-st.write("🤔 Stuck? Check out our [docs on deploying apps](https://docs.streamlit.io/en/stable/deploy_streamlit_app.html) or reach out to support@streamlit.io!")
+st.write("🤔 Stuck? Check out our [docs on deploying apps](https://docs.streamlit.io/en/stable/deploy_streamlit_app.html) or reach out to support@streamlit.io")
 st.write("ℹ️ Check out more information on [forking](https://docs.github.com/en/get-started/quickstart/fork-a-repo) and [cloning](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) GitHub repositories!")
 # github_options = st.radio("Would you like to clone or fork the repository?", ('Fork', 'Clone'))
 
@@ -188,11 +187,8 @@ def app(name, description, image, link, repo_name):
     st.caption(f"[{description}]({link})")
     clone_code = "git clone {} ".format(repo_name)
     st.code(clone_code, language="python")
-    fork_link = "https://github.com/streamlit/{0}/fork".format(repo_name)
-#     st.write("[🍴Fork App](%s)" % fork_link)
-    clicked = link_button('Fork App', fork_link)
-    if clicked:    
-        st.balloons()
+    repo_link = "https://github.com/streamlit/{0}/".format(repo_name)
+    st.write("[👀 View App Repo](%s)" % repo_link)
     st.write("")
 
 category("📊 Data Visualization")
@@ -269,10 +265,33 @@ with col2:
         "example-app-ab-testing",
     )
     
-# title = "🤩 Want more example apps?"
-# link = "https://streamlit.io/gallery" 
-# st.header(f"[{title}]({link})")
-#st.caption(f"[{description}]({link})")
+category("🦄 Other")
+col1, col2, col3 = st.columns(3)
+with col1:
+    app(
+        "Database Example",
+        "Easily collect data from users and write to a database.",
+        "images/BugReport.png",
+        "https://share.streamlit.io/streamlit/example-app-bug-report/main",
+        "example-app-bug-report",
+    )
+with col2:
+    app(
+        "File Generation",
+        "Quickly generate a PDF file using data collected from user input.",
+        "images/PDFGenerator.png",
+        "https://share.streamlit.io/streamlit/example-app-pdf-report/main",
+        "example-app-pdf-report",
+    )
+with col3:
+    app(
+        "Collaboration",
+        "Allow viewers of your app to collaborate via a commenting feature.",
+        "images/Comments.png",
+        "https://share.streamlit.io/streamlit/example-app-commenting/main",
+        "example-app-commenting",
+    )
+    
 st.header("🤩 Want more example apps?")
-clicked = link_button('Check out our app gallery!', "https://streamlit.io/gallery")
-# st.write("Check out our [app gallery](https://streamlit.io/gallery)")
+gallery_link = "https://streamlit.io/gallery"
+st.write("[Check out our app gallery!](%s)" % gallery_link)
