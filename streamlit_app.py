@@ -118,7 +118,7 @@ st.write(
     "🚀 To deploy an app with your own [Streamlit Cloud](https://share.streamlit.io/) account,"
     " click 'View App Repo'"
 )
-st.write("🤔 Stuck? Check out our [docs on deploying apps](https://docs.streamlit.io/en/stable/deploy_streamlit_app.html) or reach out to support@streamlit.io!")
+st.write("🤔 Stuck? Check out our [docs on deploying apps](https://docs.streamlit.io/en/stable/deploy_streamlit_app.html) or reach out to support@streamlit.io")
 st.write("ℹ️ Check out more information on [forking](https://docs.github.com/en/get-started/quickstart/fork-a-repo) and [cloning](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) GitHub repositories!")
 # github_options = st.radio("Would you like to clone or fork the repository?", ('Fork', 'Clone'))
 
