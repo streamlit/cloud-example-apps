@@ -285,7 +285,7 @@ with col2:
     app(
         "File Generation",
         "Quickly generate a PDF file using data collected from user input.",
-        "images/ABTesting.png",
+        "images/PDFGenerator.png",
         "https://share.streamlit.io/streamlit/example-app-pdf-report/main",
         "example-app-pdf-report",
     )
