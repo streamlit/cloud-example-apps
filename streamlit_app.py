@@ -189,7 +189,8 @@ def app(name, description, image, link, repo_name):
     st.code(clone_code, language="python")
     repo_link = "https://github.com/streamlit/{0}/".format(repo_name)
     #fork_link = "https://github.com/streamlit/{0}/fork".format(repo_name)
-    if st.button(‘View App Repo’):
+    app_button = st.button("View App Repo")
+    if app_button:
         webbrowser.open_new_tab(repo_link)
     st.write("[👀 View App Repo](%s)" % repo_link)
     #st.markdown(
