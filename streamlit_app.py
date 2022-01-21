@@ -198,7 +198,7 @@ with col1:
         "Interactive Data",
         "Make data apps to interactively explore data. In this case, check out NYC Uber pickups.",
         "images/Uber.png",
-        "https://share.streamlit.io/streamlit/demo-uber-nyc-pickups",
+        "https://share.streamlit.io/streamlit/demo-uber-nyc-pickups/main",
         "demo-uber-nyc-pickups",
     )
 with col2:
