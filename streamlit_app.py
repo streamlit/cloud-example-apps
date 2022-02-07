@@ -258,7 +258,7 @@ with col1:
         "example-app-qa-generator",
     )
     app(
-        "App Creation",
+        "Automatic App Creation",
         "Create web apps from scratch by typing a few words. No coding required!.",
         "images/FaceGAN.png",
         "https://share.streamlit.io/streamlit/example-app-streamlit-codex/main",
