@@ -257,7 +257,7 @@ with col1:
         "example-app-bert-keyword-extractor",
     )
     app(
-        "Speech to Text Transcription",
+        "Speech to Text",
         "A speech-to-text transcription app. Upload a .wav file, transcribe it, download it!",
         "images/FaceGAN.png",
         "https://share.streamlit.io/streamlit/example-app-speech-to-text-transcription/main",
