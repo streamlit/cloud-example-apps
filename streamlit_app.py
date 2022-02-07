@@ -259,7 +259,7 @@ with col1:
     app(
         "Speech to Text",
         "A speech-to-text transcription app. Upload a .wav file, transcribe it, download it!",
-        "images/FaceGAN.png",
+        "images/SpeechToText.png",
         "https://share.streamlit.io/streamlit/example-app-speech-to-text-transcription/main",
         "example-app-speech-to-text-transcription",
     )
