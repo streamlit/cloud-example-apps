@@ -219,7 +219,7 @@ with col2:
     app(
         "Interactive Tables",
         "Create interactive tables with the streamlit-aggrid component.",
-        "images/CSVWrangler.png",
+        "images/InteractiveTables.png",
         "https://share.streamlit.io/streamlit/example-app-interactive-table/main",
         "example-app-interactive-table",
     )
