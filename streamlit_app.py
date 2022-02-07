@@ -233,7 +233,7 @@ with col3:
         "example-app-crypto-dashboard",
     )
     app(
-        "ETL Job Monitoring",
+        "Job Monitoring",
         "An app that monitors the performance of your data jobs, in this case using DBT.",
         "images/FinanceExplorer.png",
         "https://share.streamlit.io/streamlit/example-app-dbt/main/app.py",
