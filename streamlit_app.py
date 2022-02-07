@@ -251,7 +251,7 @@ with col1:
         "demo-face-gan",
     )
     app(
-        "Generate FAQs",
+        "FAQ Generation",
         "An FAQ generator that generates quality question/answer pairs from URLs.",
         "images/FaceGAN.png",
         "https://share.streamlit.io/streamlit/example-app-qa-generator/main",
