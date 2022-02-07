@@ -265,6 +265,13 @@ with col2:
         "https://share.streamlit.io/streamlit/demo-deepdream/master",
         "demo-deepdream",
     )
+    app(
+        "Document Anonymizer",
+        "Detect entities (persons, orgs, and locations) present in a document and anonymize them in one click.",
+        "images/DeepDream.png",
+        "https://share.streamlit.io/charlywargnier/streamlit-text-anonymizer/main/app.py",
+        "streamlit-text-anonymizer",
+    )
 with col3:
     app(
         "Data Browser",
