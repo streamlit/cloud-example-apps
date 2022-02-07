@@ -234,7 +234,7 @@ with col3:
     app(
         "Job Monitoring",
         "Monitor the performance of your data jobs.",
-        "images/FinanceExplorer.png",
+        "images/MonitoringDashboard.png",
         "https://share.streamlit.io/streamlit/example-app-dbt/main/app.py",
         "example-app-dbt",
     )
