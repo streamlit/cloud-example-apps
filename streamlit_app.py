@@ -204,7 +204,7 @@ with col1:
     app(
         "Annotations",
         "Give more context to your time series data using annotations.",
-        "images/Uber.png",
+        "images/Annotations.png",
         "https://share.streamlit.io/streamlit/example-app-time-series-annotation/main",
         "example-app-time-series-annotation",
     )
