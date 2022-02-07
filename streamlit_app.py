@@ -249,16 +249,16 @@ with col1:
         "images/FaceGAN.png",
         "https://share.streamlit.io/streamlit/demo-face-gan/",
         "demo-face-gan",
+
+    app(
+        "Keyword Extraction",
+        "Leverage NLP embeddings to create key phrases that are most similar to a document.",
+        "images/DeepDream.png",
+        "https://share.streamlit.io/streamlit/example-app-bert-keyword-extractor/main/app.py",
+        "example-app-bert-keyword-extractor",
     )
     app(
-        "FAQ Generation",
-        "An FAQ generator that generates quality question/answer pairs from URLs.",
-        "images/FaceGAN.png",
-        "https://share.streamlit.io/streamlit/example-app-qa-generator/main",
-        "example-app-qa-generator",
-    )
-    app(
-        "Speech to Text Transcription App",
+        "Speech to Text Transcription",
         "A speech-to-text transcription app. Upload a .wav file, transcribe it, download it!",
         "images/FaceGAN.png",
         "https://share.streamlit.io/streamlit/example-app-speech-to-text-transcription/main",
@@ -280,11 +280,11 @@ with col2:
         "streamlit-text-anonymizer",
     )
     app(
-        "Keyword Extraction",
-        "Leverage NLP embeddings to create key phrases that are most similar to a document.",
-        "images/DeepDream.png",
-        "https://share.streamlit.io/streamlit/example-app-bert-keyword-extractor/main/app.py",
-        "example-app-bert-keyword-extractor",
+        "FAQ Generation",
+        "An FAQ generator that generates quality question/answer pairs from URLs.",
+        "images/FaceGAN.png",
+        "https://share.streamlit.io/streamlit/example-app-qa-generator/main",
+        "example-app-qa-generator",
     )
 with col3:
     app(
