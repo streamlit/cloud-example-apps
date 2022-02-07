@@ -281,7 +281,7 @@ with col2:
     app(
         "FAQ Generation",
         "An FAQ generator that generates quality question/answer pairs from URLs.",
-        "images/FaceGAN.png",
+        "images/FAQGeneration.png",
         "https://share.streamlit.io/streamlit/example-app-qa-generator/main",
         "example-app-qa-generator",
     )
