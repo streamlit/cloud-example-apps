@@ -201,6 +201,14 @@ with col1:
         "https://share.streamlit.io/streamlit/demo-uber-nyc-pickups/main",
         "demo-uber-nyc-pickups",
     )
+    app(
+    "Interactive Data",
+    "Make data apps to interactively explore data. In this case, check out NYC Uber pickups.",
+    "images/Uber.png",
+    "https://share.streamlit.io/streamlit/demo-uber-nyc-pickups/main",
+    "demo-uber-nyc-pickups",
+    )
+    
 with col2:
     app(
         "Data Wrangler",
