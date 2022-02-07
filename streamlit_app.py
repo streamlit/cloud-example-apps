@@ -201,6 +201,13 @@ with col1:
         "https://share.streamlit.io/streamlit/demo-uber-nyc-pickups/main",
         "demo-uber-nyc-pickups",
     )
+    app(
+        "Annotations",
+        "Give more context to your time series data using annotations.",
+        "images/Annotations.png",
+        "https://share.streamlit.io/streamlit/example-app-time-series-annotation/main",
+        "example-app-time-series-annotation",
+    )
 with col2:
     app(
         "Data Wrangler",
@@ -208,7 +215,13 @@ with col2:
         "images/CSVWrangler.png",
         "https://share.streamlit.io/streamlit/example-app-csv-wrangler/main/app.py",
         "example-app-csv-wrangler",
-
+    )
+    app(
+        "Interactive Tables",
+        "Create interactive tables with the streamlit-aggrid component.",
+        "images/InteractiveTables.png",
+        "https://share.streamlit.io/streamlit/example-app-interactive-table/main",
+        "example-app-interactive-table",
     )
 with col3:
     app(
@@ -217,6 +230,13 @@ with col3:
         "images/FinanceExplorer.png",
         "https://share.streamlit.io/streamlit/example-app-crypto-dashboard/main/app.py",
         "example-app-crypto-dashboard",
+    )
+    app(
+        "Job Monitoring",
+        "Monitor the performance of your data jobs.",
+        "images/MonitoringDashboard.png",
+        "https://share.streamlit.io/streamlit/example-app-dbt/main/app.py",
+        "example-app-dbt",
     )
 
 category("🧠 Machine Learning")
@@ -229,6 +249,20 @@ with col1:
         "https://share.streamlit.io/streamlit/demo-face-gan/",
         "demo-face-gan",
     )
+    app(
+        "Keyword Extraction",
+        "Leverage NLP embeddings to create key phrases that are most similar to a document.",
+        "images/KeywordExtractor.png",
+        "https://share.streamlit.io/streamlit/example-app-bert-keyword-extractor/main/app.py",
+        "example-app-bert-keyword-extractor",
+    )
+    app(
+        "Speech to Text",
+        "A speech-to-text transcription app. Upload a .wav file, transcribe it, download it!",
+        "images/SpeechToText.png",
+        "https://share.streamlit.io/streamlit/example-app-speech-to-text-transcription/main",
+        "example-app-speech-to-text-transcription",
+    )
 with col2:
     app(
         "ML Tools",
@@ -237,6 +271,20 @@ with col2:
         "https://share.streamlit.io/streamlit/demo-deepdream/master",
         "demo-deepdream",
     )
+    app(
+        "Document Anonymizer",
+        "Detect entities (persons, orgs, and locations) present in a document and anonymize them in one click.",
+        "images/DocumentAnonymizer.png",
+        "https://share.streamlit.io/charlywargnier/streamlit-text-anonymizer/main/app.py",
+        "streamlit-text-anonymizer",
+    )
+    app(
+        "FAQ Generation",
+        "An FAQ generator that generates quality question/answer pairs from URLs.",
+        "images/FAQGeneration.png",
+        "https://share.streamlit.io/streamlit/example-app-qa-generator/main",
+        "example-app-qa-generator",
+    )
 with col3:
     app(
         "Data Browser",
@@ -244,6 +292,13 @@ with col3:
         "images/SelfDriving.png",
         "https://share.streamlit.io/streamlit/demo-self-driving/master",
         "demo-self-driving",
+    )
+    app(
+        "Sentiment Analysis",
+        "A text analysis dashboard. Type in a term to view the corresponding Twitter sentiment",
+        "images/SentimentAnalysis.png",
+        "https://share.streamlit.io/streamlit/example-app-twitter-analyzer/main",
+        "example-app-twitter-analyzer",
     )
 
 category("📦 Product")
@@ -275,6 +330,13 @@ with col1:
         "https://share.streamlit.io/streamlit/example-app-bug-report/main",
         "example-app-bug-report",
     )
+    app(
+        "File Format Conversion",
+        "Convert file formats.",
+        "images/FileConverter.png",
+        "https://share.streamlit.io/streamlit/example-app-file-converter/main",
+        "example-app-file-converter",
+        )
 with col2:
     app(
         "File Generation",
