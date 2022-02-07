@@ -252,7 +252,7 @@ with col1:
     app(
         "Keyword Extraction",
         "Leverage NLP embeddings to create key phrases that are most similar to a document.",
-        "images/DeepDream.png",
+        "images/KeywordExtractor.png",
         "https://share.streamlit.io/streamlit/example-app-bert-keyword-extractor/main/app.py",
         "example-app-bert-keyword-extractor",
     )
