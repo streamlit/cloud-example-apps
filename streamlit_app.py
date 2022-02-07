@@ -257,6 +257,13 @@ with col1:
         "https://share.streamlit.io/streamlit/example-app-qa-generator/main",
         "example-app-qa-generator",
     )
+    app(
+        "App Creation",
+        "Create web apps from scratch by typing a few words. No coding required!.",
+        "images/FaceGAN.png",
+        "https://share.streamlit.io/streamlit/example-app-streamlit-codex/main",
+        "example-app-streamlit-codex",
+    )
 with col2:
     app(
         "ML Tools",
@@ -272,6 +279,13 @@ with col2:
         "https://share.streamlit.io/charlywargnier/streamlit-text-anonymizer/main/app.py",
         "streamlit-text-anonymizer",
     )
+    app(
+        "Keyword Extraction",
+        "Leverage NLP embeddings to create key phrases that are most similar to a document.",
+        "images/DeepDream.png",
+        "https://share.streamlit.io/streamlit/example-app-bert-keyword-extractor/main/app.py",
+        "example-app-bert-keyword-extractor",
+    )
 with col3:
     app(
         "Data Browser",
@@ -279,6 +293,13 @@ with col3:
         "images/SelfDriving.png",
         "https://share.streamlit.io/streamlit/demo-self-driving/master",
         "demo-self-driving",
+    )
+    app(
+        "Sentiment Analysis",
+        "A text analysis dashboard. Type in a term to view the corresponding Twitter sentiment",
+        "images/SelfDriving.png",
+        "https://share.streamlit.io/streamlit/example-app-twitter-analyzer/main",
+        "example-app-twitter-analyzer",
     )
 
 category("📦 Product")
