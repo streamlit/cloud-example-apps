@@ -216,7 +216,13 @@ with col2:
         "images/CSVWrangler.png",
         "https://share.streamlit.io/streamlit/example-app-csv-wrangler/main/app.py",
         "example-app-csv-wrangler",
-
+    )
+    app(
+    "Interactive Tables with streamlit-aggrid",
+    "Use the streamlit-aggrid component to interactively display additional data.",
+    "images/CSVWrangler.png",
+    "https://share.streamlit.io/streamlit/example-app-interactive-table/main",
+    "example-app-interactive-table",
     )
 with col3:
     app(
