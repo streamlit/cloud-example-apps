@@ -232,6 +232,13 @@ with col3:
         "https://share.streamlit.io/streamlit/example-app-crypto-dashboard/main/app.py",
         "example-app-crypto-dashboard",
     )
+    app(
+        "ETL Job Monitoring",
+        "An app that monitors the performance of your data jobs, in this case using DBT.",
+        "images/FinanceExplorer.png",
+        "https://share.streamlit.io/streamlit/example-app-dbt/main/app.py",
+        "example-app-dbt",
+    )
 
 category("🧠 Machine Learning")
 col1, col2, col3 = st.columns(3)
