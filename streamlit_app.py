@@ -202,7 +202,7 @@ with col1:
         "demo-uber-nyc-pickups",
     )
     app(
-        "Annotate Time Series",
+        "Annotations",
         "Give more context to your time series data using annotations.",
         "images/Uber.png",
         "https://share.streamlit.io/streamlit/example-app-time-series-annotation/main",
@@ -296,6 +296,13 @@ with col1:
         "https://share.streamlit.io/streamlit/example-app-bug-report/main",
         "example-app-bug-report",
     )
+    app(
+        "File Format Conversion",
+        "Convert file formats.",
+        "images/BugReport.png",
+        "https://share.streamlit.io/streamlit/example-app-file-converter/main",
+        "example-app-file-converter",
+        )
 with col2:
     app(
         "File Generation",
