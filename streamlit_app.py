@@ -202,11 +202,11 @@ with col1:
         "demo-uber-nyc-pickups",
     )
     app(
-    "Interactive Data",
-    "Make data apps to interactively explore data. In this case, check out NYC Uber pickups.",
+    "Time Series Annotations",
+    "Give more context to your time series data using annotations.",
     "images/Uber.png",
-    "https://share.streamlit.io/streamlit/demo-uber-nyc-pickups/main",
-    "demo-uber-nyc-pickups",
+    "https://share.streamlit.io/streamlit/example-app-time-series-annotation/main",
+    "example-app-time-series-annotation",
     )
     
 with col2:
