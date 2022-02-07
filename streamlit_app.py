@@ -258,11 +258,11 @@ with col1:
         "example-app-qa-generator",
     )
     app(
-        "Automatic App Creation",
-        "Create web apps from scratch by typing a few words. No coding required!.",
+        "Speech to Text App",
+        "A speech-to-text transcription app. Upload a .wav file, transcribe it, download it!",
         "images/FaceGAN.png",
-        "https://share.streamlit.io/streamlit/example-app-streamlit-codex/main",
-        "example-app-streamlit-codex",
+        "https://share.streamlit.io/streamlit/example-app-speech-to-text-transcription/main",
+        "example-app-speech-to-text-transcription",
     )
 with col2:
     app(
