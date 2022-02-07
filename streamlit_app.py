@@ -296,7 +296,7 @@ with col3:
     app(
         "Sentiment Analysis",
         "A text analysis dashboard. Type in a term to view the corresponding Twitter sentiment",
-        "images/SelfDriving.png",
+        "images/SentimentAnalysis.png",
         "https://share.streamlit.io/streamlit/example-app-twitter-analyzer/main",
         "example-app-twitter-analyzer",
     )
