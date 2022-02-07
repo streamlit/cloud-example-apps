@@ -202,11 +202,11 @@ with col1:
         "demo-uber-nyc-pickups",
     )
     app(
-    "Time Series Annotations",
-    "Give more context to your time series data using annotations.",
-    "images/Uber.png",
-    "https://share.streamlit.io/streamlit/example-app-time-series-annotation/main",
-    "example-app-time-series-annotation",
+        "Annotate Time Series",
+        "Give more context to your time series data using annotations.",
+        "images/Uber.png",
+        "https://share.streamlit.io/streamlit/example-app-time-series-annotation/main",
+        "example-app-time-series-annotation",
     )
     
 with col2:
@@ -218,11 +218,11 @@ with col2:
         "example-app-csv-wrangler",
     )
     app(
-    "Interactive Tables with streamlit-aggrid",
-    "Use the streamlit-aggrid component to interactively display additional data.",
-    "images/CSVWrangler.png",
-    "https://share.streamlit.io/streamlit/example-app-interactive-table/main",
-    "example-app-interactive-table",
+        "Interactive Tables",
+        "Use the streamlit-aggrid component to interactively display additional data.",
+        "images/CSVWrangler.png",
+        "https://share.streamlit.io/streamlit/example-app-interactive-table/main",
+        "example-app-interactive-table",
     )
 with col3:
     app(
@@ -242,6 +242,13 @@ with col1:
         "images/FaceGAN.png",
         "https://share.streamlit.io/streamlit/demo-face-gan/",
         "demo-face-gan",
+    )
+    app(
+        "Q&A Generation",
+        "An FAQ generator that generates quality question/answer pairs from URLs.",
+        "images/FaceGAN.png",
+        "https://share.streamlit.io/streamlit/example-app-qa-generator/main",
+        "example-app-qa-generator",
     )
 with col2:
     app(
