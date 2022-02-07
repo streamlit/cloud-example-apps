@@ -219,7 +219,7 @@ with col2:
     )
     app(
         "Interactive Tables",
-        "Use the streamlit-aggrid component to interactively display additional data.",
+        "Create interactive tables with the streamlit-aggrid component.",
         "images/CSVWrangler.png",
         "https://share.streamlit.io/streamlit/example-app-interactive-table/main",
         "example-app-interactive-table",
@@ -234,7 +234,7 @@ with col3:
     )
     app(
         "Job Monitoring",
-        "An app that monitors the performance of your data jobs, in this case using DBT.",
+        "Monitor the performance of your data jobs.",
         "images/FinanceExplorer.png",
         "https://share.streamlit.io/streamlit/example-app-dbt/main/app.py",
         "example-app-dbt",
