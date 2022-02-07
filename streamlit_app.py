@@ -208,7 +208,6 @@ with col1:
         "https://share.streamlit.io/streamlit/example-app-time-series-annotation/main",
         "example-app-time-series-annotation",
     )
-    
 with col2:
     app(
         "Data Wrangler",
@@ -249,7 +248,7 @@ with col1:
         "images/FaceGAN.png",
         "https://share.streamlit.io/streamlit/demo-face-gan/",
         "demo-face-gan",
-
+    )
     app(
         "Keyword Extraction",
         "Leverage NLP embeddings to create key phrases that are most similar to a document.",
