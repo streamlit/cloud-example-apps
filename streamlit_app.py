@@ -333,7 +333,7 @@ with col1:
     app(
         "File Format Conversion",
         "Convert file formats.",
-        "images/BugReport.png",
+        "images/FileConverter.png",
         "https://share.streamlit.io/streamlit/example-app-file-converter/main",
         "example-app-file-converter",
         )
