@@ -272,7 +272,7 @@ with col2:
         "demo-deepdream",
     )
     app(
-        "Anonymization",
+        "Document Anonymizer",
         "Detect entities (persons, orgs, and locations) present in a document and anonymize them in one click.",
         "images/DocumentAnonymizer.png",
         "https://share.streamlit.io/charlywargnier/streamlit-text-anonymizer/main/app.py",
